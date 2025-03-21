@@ -1,0 +1,22 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --white: #F9F9F9;
+  --blue: #65B4E3;
+  --green: #ABB777;
+  --grey: #09090965;
+  --height-footer: 40px;
+  --height-header: 100px;
+  background-color: var(--blue);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 600;
+}

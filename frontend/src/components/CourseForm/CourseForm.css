@@ -1,0 +1,82 @@
+
+.course-card {
+    background-color: var(--grey);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 80%;
+}
+
+.course-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .form-row {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .form-column {
+    flex: 1; 
+    min-width: 250px; 
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    background-color: var(--green);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid var(--white);
+  }
+  
+  .input-group .icon {
+    margin-right: 10px;
+    color: var(--white);
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    font-size: 1rem;
+    color: var(--white);
+  }
+  
+  .input-group input::placeholder,
+  .input-group textarea::placeholder {
+    color: var(--white);
+  }
+  
+  .input-group textarea {
+    resize: none;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .course-btn {
+    background-color: var(--white);
+    color: var(--blue);
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .course-btn:hover {
+    background-color: var(--blue);
+    color: var(--white);
+  }

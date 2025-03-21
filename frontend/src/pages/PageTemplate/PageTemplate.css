@@ -1,0 +1,19 @@
+.page{
+  display: grid;
+  grid-template-rows: var(--height-header) calc(100vh - var(--height-footer) - var(--height-header)) var(--height-footer);
+}
+
+.header{
+  grid-row: 1;
+}
+
+.main{
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  grid-row: 3;
+}

@@ -1,0 +1,94 @@
+.course-card {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 24px;
+    background-color: var(--green);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+  }
+
+.full {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.header-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-card h2 {
+    margin-top: 0;
+}
+
+.category {
+    font-size: 1rem;
+}
+
+.course-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info {
+    width: 50%;
+}
+
+.description {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.description h3 {
+    margin-top: 0;
+}
+
+.bootom-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    }
+  
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
+.slots {
+    text-align: right;
+    font-size: 0.9rem;
+    color: var(--white);;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.buttons button:hover{
+    opacity: 0.8;
+}
+
+.buttons button .icon {
+    background-color: transparent;
+    margin-right: 8px; 
+    padding: 0px;
+    border-radius: 0px;
+    width: 1.4rem;
+}
+  

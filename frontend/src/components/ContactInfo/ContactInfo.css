@@ -1,0 +1,28 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: var(--grey);
+}
+
+.contact-card {
+  background-color: var(--grey);
+  color: var(--white);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 350px;
+  text-align: left;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+@media (max-width: 400px) {
+  .contact-card {
+    max-width: 90%;
+    padding: 15px;
+  }
+}
